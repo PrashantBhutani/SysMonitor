@@ -1,0 +1,184 @@
+COMMAND         USER     STAT    VSZ   RSS %CPU     TIME STIME     ELAPSED  NI   PID WCHAN  CMD
+init            root     Ss     2788  1544  0.0 00:00:00 Apr04  2-18:08:29   0     1 poll_s /sbin/init
+kthreadd        root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0     2 kthrea [kthreadd]
+migration/0     root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   -     3 migrat [migration/0]
+ksoftirqd/0     root     S         0     0  0.0 00:00:02 Apr04  2-18:08:29   0     4 ksofti [ksoftirqd/0]
+watchdog/0      root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   -     5 watchd [watchdog/0]
+migration/1     root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   -     6 migrat [migration/1]
+ksoftirqd/1     root     S         0     0  0.0 00:00:03 Apr04  2-18:08:29   0     7 ksofti [ksoftirqd/1]
+watchdog/1      root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   -     8 watchd [watchdog/1]
+events/0        root     S         0     0  0.0 00:00:01 Apr04  2-18:08:29   0     9 worker [events/0]
+events/1        root     S         0     0  0.0 00:00:01 Apr04  2-18:08:29   0    10 worker [events/1]
+cpuset          root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    11 worker [cpuset]
+khelper         root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    12 worker [khelper]
+netns           root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    13 worker [netns]
+async/mgr       root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    14 async_ [async/mgr]
+pm              root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    15 worker [pm]
+sync_supers     root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    17 bdi_sy [sync_supers]
+bdi-default     root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    18 bdi_fo [bdi-default]
+kintegrityd/0   root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    19 worker [kintegrityd/0]
+kintegrityd/1   root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    20 worker [kintegrityd/1]
+kblockd/0       root     S         0     0  0.0 00:00:01 Apr04  2-18:08:29   0    21 worker [kblockd/0]
+kblockd/1       root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    22 worker [kblockd/1]
+kacpid          root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    23 worker [kacpid]
+kacpi_notify    root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    24 worker [kacpi_notify]
+kacpi_hotplug   root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    25 worker [kacpi_hotplug]
+ata/0           root     S         0     0  0.0 00:00:06 Apr04  2-18:08:29   0    26 worker [ata/0]
+ata/1           root     S         0     0  0.0 00:00:04 Apr04  2-18:08:29   0    27 worker [ata/1]
+ata_aux         root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    28 worker [ata_aux]
+ksuspend_usbd   root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    29 worker [ksuspend_usbd]
+khubd           root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    30 hub_th [khubd]
+kseriod         root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    31 serio_ [kseriod]
+kmmcd           root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    32 worker [kmmcd]
+khungtaskd      root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    35 watchd [khungtaskd]
+kswapd0         root     S         0     0  0.0 00:00:52 Apr04  2-18:08:29   0    36 kswapd [kswapd0]
+ksmd            root     SN        0     0  0.0 00:00:00 Apr04  2-18:08:29   5    37 ksm_sc [ksmd]
+aio/0           root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    38 worker [aio/0]
+aio/1           root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    39 worker [aio/1]
+ecryptfs-kthrea root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    40 ecrypt [ecryptfs-kthrea]
+crypto/0        root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    41 worker [crypto/0]
+crypto/1        root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    42 worker [crypto/1]
+scsi_eh_0       root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    46 scsi_e [scsi_eh_0]
+scsi_eh_1       root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    47 scsi_e [scsi_eh_1]
+scsi_eh_2       root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    48 scsi_e [scsi_eh_2]
+scsi_eh_3       root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    49 scsi_e [scsi_eh_3]
+kstriped        root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    54 worker [kstriped]
+kmpathd/0       root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    55 worker [kmpathd/0]
+kmpathd/1       root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    56 worker [kmpathd/1]
+kmpath_handlerd root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    57 worker [kmpath_handlerd]
+ksnapd          root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    58 worker [ksnapd]
+kondemand/0     root     S         0     0  0.0 00:00:51 Apr04  2-18:08:29   0    59 worker [kondemand/0]
+kondemand/1     root     S         0     0  0.0 00:00:47 Apr04  2-18:08:29   0    60 worker [kondemand/1]
+kconservative/0 root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    61 worker [kconservative/0]
+kconservative/1 root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0    62 worker [kconservative/1]
+scsi_eh_4       root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0   275 scsi_e [scsi_eh_4]
+usb-storage     root     S         0     0  0.0 00:00:00 Apr04  2-18:08:29   0   276 usb_st [usb-storage]
+usbhid_resumer  root     S         0     0  0.0 00:00:00 Apr04  2-18:08:28   0   295 worker [usbhid_resumer]
+flush-8:0       root     S         0     0  0.0 00:00:05 Apr04  2-18:08:24   0   315 bdi_wr [flush-8:0]
+kjournald       root     S         0     0  0.0 00:00:10 Apr04  2-18:08:23   0   324 kjourn [kjournald]
+upstart-udev-br root     S      2316   720  0.0 00:00:00 Apr04  2-18:08:05   0   367 poll_s upstart-udev-bridge --daemon
+udevd           root     S<s    2860   520  0.0 00:00:00 Apr04  2-18:08:05  -4   370 poll_s udevd --daemon
+evolution       prashant Sl   126540 20828  0.0 00:00:05 Apr05  1-10:14:13   0   495 poll_s evolution mailto:prashantbhutani2008@gmail.com
+evolution-data- prashant Sl    77532  6008  0.0 00:00:00 Apr05  1-10:14:11   0   499 poll_s /usr/lib/evolution/evolution-data-server-2.28 --oaf-activate-iid=OAFIID:GNOME_Evolution_DataServer_InterfaceCheck --oaf-ior-fd=25
+evolution-excha prashant Sl    44944  7912  0.0 00:00:00 Apr05  1-10:14:11   0   503 poll_s /usr/lib/evolution/2.28/evolution-exchange-storage --oaf-activate-iid=OAFIID:GNOME_Evolution_Exchange_Component_Factory:2.28 --oaf-ior-fd=26
+evolution-alarm prashant Sl    68416  8852  0.0 00:00:00 Apr05  1-10:14:09   0   516 poll_s /usr/lib/evolution/2.28/evolution-alarm-notify --oaf-activate-iid=OAFIID:GNOME_Evolution_Calendar_AlarmNotify_Factory:2.28 --oaf-ior-fd=27
+kpsmoused       root     S         0     0  0.0 00:00:00 Apr04  2-18:08:05   0   634 worker [kpsmoused]
+i915            root     S         0     0  0.0 00:00:01 Apr04  2-18:08:04   0   729 worker [i915]
+hd-audio0       root     S         0     0  0.0 00:00:00 Apr04  2-18:08:04   0   787 worker [hd-audio0]
+mount.ntfs      root     Ss     9952  6728  0.0 00:01:10 Apr04  2-18:07:54   0   860 fuse_d /sbin/mount.ntfs /dev/sda5 /media/disk -o rw
+mount.ntfs      root     Ss     5180  1912  0.0 00:00:12 Apr04  2-18:07:54   0   865 fuse_d /sbin/mount.ntfs /dev/sda6 /media/disk1 -o rw
+sshd            root     Ss     5552  1056  0.0 00:00:00 Apr04  2-18:07:54   0   887 poll_s /usr/sbin/sshd -D
+dbus-daemon     102      Ss     3360  1756  0.0 00:00:01 Apr04  2-18:07:54   0   892 poll_s dbus-daemon --system --fork
+rsyslogd        syslog   Sl    34536  1452  0.0 00:00:00 Apr04  2-18:07:54   0   895 poll_s rsyslogd -c4
+gdm-binary      root     Ssl   18760  2684  0.0 00:00:00 Apr04  2-18:07:54   0   912 poll_s gdm-binary
+NetworkManager  root     Ss     8740  2672  0.0 00:00:00 Apr04  2-18:07:54   0   917 poll_s NetworkManager
+avahi-daemon    avahi    S      3032  1316  0.0 00:00:04 Apr04  2-18:07:54   0   921 poll_s avahi-daemon: running [prashant.local]
+avahi-daemon    avahi    Ss     2928   284  0.0 00:00:00 Apr04  2-18:07:54   0   922 unix_s avahi-daemon: chroot helper
+console-kit-dae root     Sl    19552  2332  0.0 00:00:00 Apr04  2-18:07:54   0   924 poll_s /usr/sbin/console-kit-daemon --no-daemon
+modem-manager   root     S      4168  1832  0.0 00:00:00 Apr04  2-18:07:54   0   926 poll_s /usr/sbin/modem-manager
+wpa_supplicant  root     S      4836  1096  0.0 00:00:00 Apr04  2-18:07:54   0   929 poll_s /sbin/wpa_supplicant -u -s
+udevd           root     S<     2856   236  0.0 00:00:00 Apr05  1-07:30:19  -2   993 poll_s udevd --daemon
+udevd           root     S<     2856   240  0.0 00:00:00 Apr05  1-07:30:19  -2   994 poll_s udevd --daemon
+gdm-simple-slav root     Sl    20492  2516  0.0 00:00:00 Apr04  2-18:07:54   0  1013 poll_s /usr/lib/gdm/gdm-simple-slave --display-id /org/gnome/DisplayManager/Display1
+Xorg            root     Ss+   41788 26024  2.3 01:34:22 Apr04  2-18:07:54   0  1056 poll_s /usr/bin/X :0 -nr -verbose -auth /var/run/gdm/auth-for-gdm-Dazi40/database -nolisten tcp vt7
+getty           root     Ss+    1792   464  0.0 00:00:00 Apr04  2-18:07:54   0  1061 n_tty_ /sbin/getty -8 38400 tty4
+getty           root     Ss+    1792   468  0.0 00:00:00 Apr04  2-18:07:54   0  1073 n_tty_ /sbin/getty -8 38400 tty5
+getty           root     Ss+    1792   468  0.0 00:00:00 Apr04  2-18:07:54   0  1078 n_tty_ /sbin/getty -8 38400 tty2
+getty           root     Ss+    1792   468  0.0 00:00:00 Apr04  2-18:07:54   0  1079 n_tty_ /sbin/getty -8 38400 tty3
+getty           root     Ss+    1792   468  0.0 00:00:00 Apr04  2-18:07:54   0  1081 n_tty_ /sbin/getty -8 38400 tty6
+acpid           root     Ss     2048   572  0.0 00:00:00 Apr04  2-18:07:54   0  1083 poll_s acpid -c /etc/acpi/events -s /var/run/acpid.socket
+cron            root     Ss     2376   772  0.0 00:00:00 Apr04  2-18:07:54   0  1102 hrtime cron
+atd             daemon   Ss     2248   308  0.0 00:00:00 Apr04  2-18:07:54   0  1103 hrtime atd
+exim4           116      Ss     6728   576  0.0 00:00:00 Apr04  2-18:07:54   0  1360 poll_s /usr/sbin/exim4 -bd -q30m
+hddtemp         root     S      1908   384  0.0 00:00:00 Apr04  2-18:07:53   0  1431 poll_s /usr/sbin/hddtemp -d -l 127.0.0.1 -p 7634 -s | /dev/sg1 /dev/sda
+privoxy         privoxy  Ss     2860   692  0.0 00:00:00 Apr04  2-18:07:53   0  1440 inet_c /usr/sbin/privoxy --pidfile /var/run/privoxy.pid --user privoxy /etc/privoxy/config
+dbus-launch     gdm      S      3384   476  0.0 00:00:00 Apr04  2-18:07:53   0  1444 poll_s /usr/bin/dbus-launch --exit-with-session
+gdm-session-wor root     Sl    19000  2108  0.0 00:00:00 Apr04  2-18:07:53   0  1492 poll_s /usr/lib/gdm/gdm-session-worker
+upowerd         root     S      5504  2208  0.0 00:00:00 Apr04  2-18:07:53   0  1494 poll_s /usr/lib/upower/upowerd
+polkitd         root     S      6732  3664  0.0 00:00:00 Apr04  2-18:07:53   0  1498 poll_s /usr/lib/policykit-1/polkitd
+sipw            root     SLl   76848  1300  0.0 00:00:23 Apr04  2-18:07:52   0  1554 pipe_w /usr/sbin/sipw -d
+winbindd        root     Ss    11736   808  0.0 00:00:00 Apr04  2-18:07:52   0  1628 poll_s /usr/sbin/winbindd
+winbindd        root     S     11736   596  0.0 00:00:00 Apr04  2-18:07:52   0  1630 poll_s /usr/sbin/winbindd
+gpsd            nobody   S<s    5068   952  0.0 00:00:09 Apr04  2-18:07:52 -10  1638 poll_s /usr/sbin/gpsd -F /var/run/gpsd.sock -P /var/run/gpsd.pid
+cupsd           root     Ss     6696  1316  0.0 00:00:00 Apr04  2-18:07:52   0  1656 ep_pol /usr/sbin/cupsd -C /etc/cups/cupsd.conf
+pcscd           root     Ssl   12976   616  0.0 00:01:14 Apr04  2-18:07:52   0  1670 poll_s /usr/sbin/pcscd
+apache2         root     Ss    23424  3180  0.0 00:00:03 Apr04  2-18:07:52   0  1726 poll_s /usr/sbin/apache2 -k start
+getty           root     Ss+    1792   468  0.0 00:00:00 Apr04  2-18:07:52   0  1768 n_tty_ /sbin/getty -8 38400 tty1
+gnome-keyring-d prashant SLl   24084  2284  0.0 00:00:00 Apr04  2-18:07:48   0  1773 poll_s /usr/bin/gnome-keyring-daemon --daemonize --login
+gnome-session   prashant Ssl   26372  6356  0.0 00:00:00 Apr04  2-18:07:40   0  1793 poll_s gnome-session
+ssh-agent       prashant Ss     3284   148  0.0 00:00:00 Apr04  2-18:07:40   0  1827 poll_s /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session gnome-session
+dbus-launch     prashant S      3384   468  0.0 00:00:00 Apr04  2-18:07:40   0  1830 poll_s /usr/bin/dbus-launch --exit-with-session gnome-session
+dbus-daemon     prashant Ss     5640  1632  0.0 00:00:05 Apr04  2-18:07:40   0  1831 poll_s /bin/dbus-daemon --fork --print-pid 5 --print-address 9 --session
+gconfd-2        prashant S      7976  4596  0.0 00:00:05 Apr04  2-18:07:40   0  1834 poll_s /usr/lib/libgconf2-4/gconfd-2
+gnome-settings- prashant Ss    91272  9376  0.0 00:00:38 Apr04  2-18:07:39   0  1840 poll_s /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+gvfsd           prashant S      7540  2920  0.0 00:00:00 Apr04  2-18:07:39   0  1843 poll_s /usr/lib/gvfs/gvfsd
+gvfs-fuse-daemo prashant Ssl   38612  2356  0.0 00:00:00 Apr04  2-18:07:39   0  1848 futex_ /usr/lib/gvfs//gvfs-fuse-daemon /home/prashant/.gvfs
+compiz          prashant S     74112  8480  0.3 00:15:06 Apr04  2-18:07:39   0  1853 poll_s compiz
+pulseaudio      prashant S<sl 226500  8552  0.5 00:23:40 Apr04  2-18:07:39 -11  1855 poll_s /usr/bin/pulseaudio --start --log-target=syslog
+rtkit-daemon    rtkit    SNl   22908   976  0.0 00:00:01 Apr04  2-18:07:39   1  1860 poll_s /usr/lib/rtkit/rtkit-daemon
+polkit-gnome-au prashant S     18980  5344  0.0 00:00:00 Apr04  2-18:07:39   0  1866 poll_s /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+python          prashant S     35916 11196  0.0 00:00:00 Apr04  2-18:07:39   0  1869 poll_s python /usr/share/screenlets-manager/screenlets-daemon.py
+avant-window-na prashant Sl    50632  9152  0.1 00:04:01 Apr04  2-18:07:39   0  1870 poll_s avant-window-navigator --startup
+gnome-panel     prashant S     66588 28028  0.0 00:00:36 Apr04  2-18:07:39   0  1871 poll_s gnome-panel
+nautilus        prashant Sl   292048 72268  0.1 00:04:32 Apr04  2-18:07:39   0  1872 poll_s nautilus
+tomboy          prashant Sl    81588 26904  0.0 00:00:02 Apr04  2-18:07:39   0  1873 poll_s mono /usr/lib/tomboy/Tomboy.exe
+gconf-helper    prashant S     10752  2360  0.0 00:00:00 Apr04  2-18:07:38   0  1879 poll_s /usr/lib/pulseaudio/pulse/gconf-helper
+gvfsd-trash     prashant S     16452  2868  0.0 00:00:00 Apr04  2-18:07:38   0  1886 poll_s /usr/lib/gvfs/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+gvfs-gdu-volume prashant S     41520  3288  0.0 00:00:01 Apr04  2-18:07:38   0  1889 poll_s /usr/lib/gvfs/gvfs-gdu-volume-monitor
+udisks-daemon   root     Sl    15968  2952  0.0 00:00:04 Apr04  2-18:07:38   0  1891 poll_s /usr/lib/udisks/udisks-daemon
+udisks-daemon   root     S      5180   840  0.0 00:00:16 Apr04  2-18:07:38   0  1892 poll_s udisks-daemon: polling /dev/sr0
+sh              prashant Ss     1832   376  0.0 00:00:00 Apr04  2-18:07:38   0  1895 wait   /bin/sh -c /usr/bin/compiz-decorator
+gtk-window-deco prashant S     52064 16092  0.0 00:00:28 Apr04  2-18:07:38   0  1896 poll_s /usr/bin/gtk-window-decorator
+gvfs-gphoto2-vo prashant S      7128  1988  0.0 00:00:00 Apr04  2-18:07:38   0  1905 poll_s /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+gvfs-afc-volume prashant Sl    16928  1972  0.0 00:00:05 Apr04  2-18:07:38   0  1907 poll_s /usr/lib/gvfs/gvfs-afc-volume-monitor
+bonobo-activati prashant Ssl   41892  2976  0.0 00:00:00 Apr04  2-18:07:38   0  1910 poll_s /usr/lib/bonobo-activation/bonobo-activation-server --ac-activate --ior-output-fd=21
+indicator-apple prashant S     80808 11824  0.0 00:00:01 Apr04  2-18:07:38   0  1923 poll_s /usr/lib/indicator-applet/indicator-applet --oaf-activate-iid=OAFIID:GNOME_IndicatorApplet_Factory --oaf-ior-fd=18
+clock-applet    prashant Sl    90464 12260  0.0 00:03:37 Apr04  2-18:07:38   0  1924 poll_s /usr/lib/gnome-panel/clock-applet --oaf-activate-iid=OAFIID:GNOME_ClockApplet_Factory --oaf-ior-fd=24
+notification-ar prashant S     23708  8028  0.0 00:00:00 Apr04  2-18:07:37   0  1927 poll_s /usr/lib/gnome-panel/notification-area-applet --oaf-activate-iid=OAFIID:GNOME_NotificationAreaApplet_Factory --oaf-ior-fd=23
+gvfsd-metadata  prashant S      6884  2068  0.0 00:00:01 Apr04  2-18:07:37   0  1942 poll_s /usr/lib/gvfs/gvfsd-metadata
+indicator-appli prashant S     24308  3812  0.0 00:00:00 Apr04  2-18:07:37   0  1945 poll_s /usr/lib/indicator-application/indicator-application-service
+indicator-sound prashant S     85336  3804  0.0 00:00:00 Apr04  2-18:07:37   0  1946 poll_s /usr/lib/indicator-sound/indicator-sound-service
+indicator-messa prashant S     17492  3528  0.0 00:00:00 Apr04  2-18:07:37   0  1949 poll_s /usr/lib/indicator-messages/indicator-messages-service
+gvfsd-burn      prashant S      6380  1904  0.0 00:00:00 Apr04  2-18:07:37   0  1956 poll_s /usr/lib/gvfs/gvfsd-burn --spawner :1.6 /org/gtk/gvfs/exec_spaw/1
+gnome-screensav prashant Ss    18388  5672  0.0 00:00:10 Apr04  2-18:07:34   0  1962 poll_s gnome-screensaver
+awn-applet      prashant S     50408 14252  0.0 00:00:10 Apr04  2-18:07:33   0  1965 poll_s awn-applet -p /usr/share/avant-window-navigator/applets/showdesktop.desktop -u 1289474037 -w 23068715 -i 1
+awn-applet      prashant Sl    54976 11040  0.0 00:00:11 Apr04  2-18:07:33   0  1967 poll_s awn-applet -p /usr/share/avant-window-navigator/applets/awnterm.desktop -u 1289474069 -w 23068716 -i 1
+awn-applet      prashant S     54796 18492  0.0 00:02:19 Apr04  2-18:07:33   0  1968 poll_s awn-applet -p /usr/share/avant-window-navigator/applets/taskmanager.desktop -u 1299078887 -w 23068717 -i 1
+gdu-notificatio prashant S     45352  9476  0.0 00:00:00 Apr04  2-18:07:29   0  2019 poll_s /usr/lib/gnome-disk-utility/gdu-notification-daemon
+python          prashant S     31960  7196  0.0 00:00:00 Apr04  2-18:07:09   0  2034 poll_s python /usr/share/system-config-printer/applet.py
+update-notifier prashant S     46180 10320  0.0 00:00:10 Apr04  2-18:06:39   0  2063 poll_s update-notifier
+warp.exe        prashant S    1614884 19148 0.0 00:00:00 Apr05    22:00:12   0  5887 pipe_w /media/disk1/Warp/warp.exe                                      
+hald            108      Ssl   16828  2256  0.0 00:00:01 Apr04  2-07:51:56   0  8204 poll_s /usr/sbin/hald
+hald-runner     root     S      3532  1240  0.0 00:00:00 Apr04  2-07:51:56   0  8205 poll_s hald-runner
+hald-addon-inpu root     S      3608  1084  0.0 00:00:01 Apr04  2-07:51:54   0  8229 poll_s hald-addon-input: Listening on /dev/input/event4 /dev/input/event0 /dev/input/event1
+hald-addon-stor root     S      3612  1188  0.0 00:00:53 Apr04  2-07:51:53   0  8244 poll_s hald-addon-storage: polling /dev/sr0 (every 2 sec)
+hald-addon-cpuf root     S      3620   988  0.0 00:00:00 Apr04  2-07:51:53   0  8246 poll_s /usr/lib/hal/hald-addon-cpufreq
+hald-addon-acpi 108      S      3420   956  0.0 00:00:00 Apr04  2-07:51:53   0  8247 unix_s hald-addon-acpi: listening on acpid socket /var/run/acpid.socket
+notify-osd      prashant S     42344  7188  0.0 00:00:00 Apr04  2-07:38:14   0  8328 poll_s /usr/lib/notify-osd/notify-osd
+vlc             prashant Tl   201640 67316  0.6 00:06:24 03:51    16:48:41   0 11925 signal vlc /media/disk1/songs/08  Shayne Ward - Melt The Snow.mp3 /media/disk1/songs/DILJIT - TU HI RU BA RU HAI -THE NEXT LEVEL - ORIGNAL FULL VIDEO SONG [HD].flv /media/disk1/songs/LOG KEHTE HAIN MAIN SHARABI HOON.MPG /media/disk1/songs/Mere Mehboob Qayamat Hogi - 2 - Kumkum - Mr X In Bombay.mp4 /media/disk1/songs/shayne ward -melt the snow.mp4 /media/disk1/songs/YouTube - IMRAN KHAN BEWAFA.mp4
+atop            root     S<L    2792  2780  0.0 00:00:02 07:52    12:47:52 -10 12521 pause  /usr/bin/atop -a -w /var/log/atop.log 600
+acroread        prashant Sl   259580 141192 2.8 00:07:48 16:11    04:29:36   0 13173 poll_s /opt/Adobe/Reader9/Reader/intellinux/bin/acroread /home/prashant/Books/Perl Books/(ebook) Programming Perl.pdf
+bash            prashant Ss+    6840  4192  0.0 00:00:00 18:28    02:12:06   0 13436 n_tty_ /bin/bash
+acroread        prashant S    111840 47876  0.0 00:00:00 19:41       59:38   0 14089 poll_s /opt/Adobe/Reader9/Reader/intellinux/bin/acroread --display :0.0 -progressPipe 3 -exitPipe 4
+firefox-bin     prashant Sl   641800 233148 7.5 00:04:26 19:41       58:45   0 14172 poll_s /usr/lib/firefox-4.0/firefox-bin
+plugin-containe prashant Sl   114752 29252  0.5 00:00:20 19:41       58:43   0 14205 poll_s /usr/lib/firefox-4.0/plugin-container /usr/lib/adobe-flashplugin/libflashplayer.so -omnijar /usr/lib/firefox-4.0/omni.jar 14172 true plugin
+acror <defunct> prashant Z         0     0  0.0 00:00:02 19:42       58:24   0 14216 exit   [acroread] <defunct>
+System_Monitor  prashant Sl    61852 21156  3.4 00:00:02 20:39       01:01   0 14473 wait   /home/prashant/Project_OR_Programs/Projects Done/system_monitor/System_Monitor
+vlc             prashant Sl   182736 45064  7.6 00:00:02 20:40       00:37   0 14491 futex_ vlc /media/disk/Remember when - Alan Jackson.flv
+sh              prashant S      1832   524  0.0 00:00:00 20:40       00:00   0 14529 wait   sh -c ps -A -o comm,user,stat,vsz,rss,pcpu,time,stime,etime,nice,pid,wchan,cmd
+ps              prashant R      2716  1064  0.0 00:00:00 20:40       00:00   0 14530 -      ps -A -o comm,user,stat,vsz,rss,pcpu,time,stime,etime,nice,pid,wchan,cmd
+apache2         www-data S     23560  2624  0.0 00:00:00 Apr04  2-05:14:17   0 22900 inet_c /usr/sbin/apache2 -k start
+apache2         www-data S     23560  2624  0.0 00:00:00 Apr04  2-05:14:17   0 22901 inet_c /usr/sbin/apache2 -k start
+apache2         www-data S     23560  2624  0.0 00:00:00 Apr04  2-05:14:17   0 22902 inet_c /usr/sbin/apache2 -k start
+apache2         www-data S     23560  2624  0.0 00:00:00 Apr04  2-05:14:17   0 22903 inet_c /usr/sbin/apache2 -k start
+apache2         www-data S     23560  2620  0.0 00:00:00 Apr04  2-05:14:17   0 22904 inet_c /usr/sbin/apache2 -k start
+mcelog          root     Ss     2028   116  0.0 00:00:00 Apr04  2-05:14:04   0 23203 poll_s /usr/sbin/mcelog --daemon
+apache2         www-data S     23560  2624  0.0 00:00:00 Apr04  2-05:09:13   0 26291 inet_c /usr/sbin/apache2 -k start
+wineserver      prashant Ss     6620  3796  0.0 00:00:32 Apr04  2-01:36:26   0 30559 ep_pol /usr/bin/wineserver
+services.exe    prashant Sl   1597280 1380  0.0 00:00:00 Apr04  2-01:36:25   0 30563 pipe_w C:\windows\system32\services.exe                                      
+winedevice.exe  prashant Sl   1597404 1356  0.0 00:00:00 Apr04  2-01:36:25   0 30565 pipe_w C:\windows\system32\winedevice.exe ACWINLPT                                      
+winedevice.exe  prashant Sl   1603712 3508  0.0 00:00:00 Apr04  2-01:36:25   0 30571 pipe_w C:\windows\system32\winedevice.exe MountMgr                                      
+explorer.exe    prashant Ss   1607892 4524  0.0 00:00:32 Apr04  2-01:36:22   0 30577 pipe_w C:\windows\system32\explorer.exe /desktop                                      
+apache2         www-data S     23560  2656  0.0 00:00:00 Apr04  2-01:21:33   0 30607 inet_c /usr/sbin/apache2 -k start
+wweb32.exe      prashant Sl   1615916 9088  0.0 00:00:01 Apr04  1-23:00:24   0 31024 pipe_w C:\Program Files\WordWeb\wweb32.exe                                      
+gvfsd-computer  prashant S     15000  2760  0.0 00:00:00 Apr04  1-22:46:35   0 31176 poll_s /usr/lib/gvfs/gvfsd-computer --spawner :1.6 /org/gtk/gvfs/exec_spaw/2

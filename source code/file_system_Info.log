@@ -1,0 +1,21 @@
+Filesystem    Type    Size  Used Avail Use% Mounted on
+/dev/sda1     ext3     76G   32G   41G  44% /
+proc          proc       0     0     0   -  /proc
+none         sysfs       0     0     0   -  /sys
+none       fusectl       0     0     0   -  /sys/fs/fuse/connections
+none       debugfs       0     0     0   -  /sys/kernel/debug
+none    securityfs       0     0     0   -  /sys/kernel/security
+none      devtmpfs    998M  272K  998M   1% /dev
+none        devpts       0     0     0   -  /dev/pts
+none         tmpfs   1003M  4.7M  998M   1% /dev/shm
+none         tmpfs   1003M  292K 1002M   1% /var/run
+none         tmpfs   1003M     0 1003M   0% /var/lock
+none         tmpfs   1003M     0 1003M   0% /lib/init/rw
+/dev/sda5  fuseblk     98G   35G   64G  36% /media/disk
+/dev/sda6  fuseblk    123G   67G   56G  55% /media/disk1
+binfmt_misc
+       binfmt_misc       0     0     0   -  /proc/sys/fs/binfmt_misc
+gvfs-fuse-daemon
+fuse.gvfs-fuse-daemon       0     0     0   -  /home/prashant/.gvfs
+/dev/sr0   iso9660     66M   66M     0 100% /media/NEW
+/dev/sdb1     vfat    233G  162G   71G  70% /media/New Volume
